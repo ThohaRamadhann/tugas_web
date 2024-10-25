@@ -68,7 +68,7 @@
             const password = document.getElementById("password").value;
 
             if (username === "admin" && password === "admin123") {
-                window.location.href = "main.html"; // Arahkan ke halaman utama
+                window.location.href = "halaman_utama.html"; 
             } else {
                 alert("Username atau Password salah!");
             }
@@ -84,7 +84,7 @@
                 <label for="username" class="form-label">Username</label>
                 <div class="input-group">
                     <span class="input-group-text">
-                        <i class="bi bi-person"></i> <!-- Ikon User -->
+                        <i class="bi bi-person"></i>
                     </span>
                     <input type="text" class="form-control" id="username" placeholder="Masukkan Username" required>
                 </div>
@@ -94,7 +94,7 @@
                 <label for="password" class="form-label">Password</label>
                 <div class="input-group">
                     <span class="input-group-text">
-                        <i class="bi bi-lock"></i> <!-- Ikon Lock -->
+                        <i class="bi bi-lock"></i>
                     </span>
                     <input type="password" class="form-control" id="password" placeholder="Masukkan Password" required>
                 </div>
